@@ -1,5 +1,6 @@
-.search-section {
-	width:800px;
+
+.section-style {
+	width:900px;
 	margin-left: 50px;
 }
 
@@ -18,7 +19,7 @@
 
 nav {
 	background-color: #EEE;	
-	height: 60px;
+	height: 50px;
 }
 
 
@@ -30,7 +31,7 @@ nav a {
 	color: purple;
 }
 
-nav li {
+nav li, section li {
 	display: inline;
 }
 
@@ -57,5 +58,32 @@ input {
 	display: inline-block;
 	width: 48%;
 }
+
+.button {
+	width=33%;
+	display: inline-block;
+	clear: right;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #EEE;
+}
+
+.listings {
+	width:100%;
+}
+
+.listings ul {
+	list-style-type: none;
+}
+
+.listings li {
+	padding: 10px;
+}
+
+.listings a {
+	text-decoration: none;
+}
+
 
 
